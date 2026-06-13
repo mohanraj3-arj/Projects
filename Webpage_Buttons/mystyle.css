@@ -1,0 +1,99 @@
+
+
+        
+ 
+
+    
+
+    .button-shadow{
+        background-color: green;
+        color: white;
+        height: 50px;
+        width: 100px;
+        border: none;
+        vertical-align: top;
+        margin-left: 15px;
+
+    }
+    .button-shadow:hover{
+        box-shadow: 5px 10px 15px black;
+
+    }
+    .button-shadow:active{
+        box-shadow: none;
+        margin-top: 5px;
+        margin-left: 5px;
+
+    }
+.buttion-stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+   padding-left: 18px;
+   padding-right: 18px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 10px;
+   transition:padding-right 1s, padding-left 1s ,padding-top 1s, padding-bottom 1s ;
+vertical-align: top
+;
+
+
+}
+.buttion-stretch:hover{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.button-one{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+    
+    transition: padding-left 0.15s,padding-right 0.15s;
+
+}
+.button-one:hover{
+padding-left: 20px;
+padding-right:20px;
+}
+.button-two{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: padding-left 0.15s,padding-right 0.15s;
+}
+.button-two:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button-all{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    vertical-align: top;
+    padding-top:18px;
+    padding-bottom: 8px;
+    font-size: 20px;
+margin-right: 10px;
+    margin-left: 10px;
+    transition: padding 0.15s , margin 0.15;
+}
+.button-all:hover{
+
+padding-left: 25px;
+padding-right: 25px;
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+
