@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="signup">
+        <h2>Sign Up</h2>
+        <form action="regstration.html" method="get" mctype = "multipart/form-data">
+        <div class="input">
+            
+            <label   class="text" for="username">User Name</label>
+            <input type="text" id="username" name=" name" maxlength="15"  required>
+        </div>
+        <div class="input">
+            <label  class="text" for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="input">
+            <label class="text" for="password">Password</label>
+            <input type="password" name="password" id="password"  >
+        </div>
+        <div class="radio">
+            <input type="radio"  name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            
+        </div>
+
+        <div class="button">
+            <button type="submit">Register</button>
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

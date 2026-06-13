@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+        <iframe src="Menu.html"  ></iframe>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form action="Menu.html" method = "get" emctype = "multipart/form-data">
+        <div> 
+        <!-- <label for="username">User Name</label> -->
+        <input type="username" id="username" placeholder="User Name" maxlength="3" required>
+        </div>
+         
+<div>
+            <input type="email" placeholder="Email" id="email">
+            <label for="email"></label>
+
+            
+        </div>
+        <div>  
+        <!-- <label for="password">password</label> -->
+        <input type="password" id="password" placeholder="password" required minlength="5">
+        </div>
+        <div>
+            <input type="date" name="date of birth" id="date of birth"maxlength = "4" min="1900" maxlength = "2004"placeholder="Year of birth" step="50">
+            <label for="date of birth" name ="date of birth" ></label>
+        </div>
+        <div>
+            <label for="">about</label>
+            <textarea name="" id="" cols="30" rows="4">Introducing yourself</textarea>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="sms" id="smsalart">
+            <label for="smsalart">SMS Alart</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value = "male">
+            <label for="male">Male</label>
+
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Femele</label>
+        </div>
+<div>
+    <select name="state" id="state" >
+         <option value="empty"></option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Utter Pradesh">Utter Pradesh</option>
+        <option value="Kerala">Kerala</option>
+    </select>
+</div>
+<div>
+     <label for="fiels">Upload Fiels</label>
+    <input type="file" name="file" id="fiele">
+   
+</div>
+        
+        <button type="submit">Sign Up</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background: url(/Sign-Up-Page/images/MO9xVt.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.signup{
+    width: 300px;
+    background-color: rgb(0, 0, 0,.2);
+    margin: 250px auto;
+    color: white;
+    padding: 20px 40px 30px ;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 100px;
+    transition: 0.2s;
+    
+    
+
+}
+.signup:hover{
+    box-shadow: 10px 10px 40px black;
+    transition: 0.2s;
+}
+.signup h2{
+    color: orange;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.signup .text{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid rgb(205, 213, 214);
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin: 5px 10px 40px;
+    transition: 0.2;
+    
+
+}
+.input input:hover{
+    box-shadow: 5px 10px 30px;
+    transition: 0.2s;
+
+}
+
+input:focus{
+    background-color: rgb(235, 235, 235);
+    
+}
+.button{
+    text-align: center;
+}
+button{
+    background-color: #547492;
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2;
+
+
+}
+button:hover{
+    box-shadow: 15px 15px 30px black;
+    transition: 0.2s;
+}
+button:active{
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: none;
+    transition: 0.1s;
+    background-color: #23344c ;
+    /* color: orange ; */
+}
+.signup:hover{
+    width: 300px;
+}
+.radio input{
+    accent-color: rgba(148,192,217,255) ;
+    transform: scale(1.2);
+    cursor: pointer;
+    /* text-align: center; */
+
+}
+.radio label{
+    cursor: pointer;
+}
+.reg2{
+    background-image:url(/Sign-Up-Page/images/MO9xVt.jpg);
+    color: orange;
+    text-align: center;
+    font-size: 30px auto;
+    margin: 300px auto;
+    
+
+    
+    
+}
+/* .reg{
+    width: auto;
+    
+} */
+
+
